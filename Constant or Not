@@ -1,0 +1,25 @@
+//c++
+
+#include <bits/stdc++.h>
+int main(){
+
+    char arr[100];
+    scanf("%[^\n]",arr);
+    for(int i=0;i<strlen(arr);i++){
+       
+       printf("%c",arr[i]);
+    }
+    
+
+    char con='a';
+
+    for(int i=0;i<strlen(arr);i++){
+        if(arr[i]==con){
+            printf("%c is Constant\n",arr[i]);
+        }
+        else{
+            printf("%c is not constant\n",arr[i]);
+        }
+    }
+    
+}
